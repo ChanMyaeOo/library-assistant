@@ -1,0 +1,40 @@
+
+*{
+    -fx-primay : #edf1f7;
+    -fx-secondary : #2b3647;
+    -fx-primarytext : #020947;
+}
+.root{
+    -fx-background-color: -fx-primay;
+}
+.glyph-icon{
+    -fx-fill: -fx-secondary;
+}
+.button{
+    -fx-text-fill: black;
+}
+
+/* for login design */
+.login-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.login-button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primay;
+}
+.text-field{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size : 13pt;
+    -jfx-focus-color: -fx-secondary;
+}
+.wrong-credentials{
+    -jfx-unfoucs-color : #910404;
+    -jfx-focus-color : #910404;
+}
+
